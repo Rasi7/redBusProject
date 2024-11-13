@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[sucessfully clicked on viewAll]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on account ]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on login ]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully navigated to the all the RTC Operator directories page]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully clicked on PEPSU link ]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully navigated to PEPSU Page]]>
+    </line>
+    <line>
+      <![CDATA[sucessfully clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully navigated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[sucessfuly clicked on frequent asked questions]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully navigated to the page]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully clicked on ticket related link]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully clicked on Refund Relatedlink]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully clicked on Cancellation Related link]]>
+    </line>
+    <line>
+      <![CDATA[sucessfuly clicked on terms and conditions]]>
+    </line>
+    <line>
+      <![CDATA[sucessfuly navigated to terms and policy page]]>
+    </line>
+    <line>
+      <![CDATA[sucessfuly clicked on user agreement page]]>
+    </line>
+    <line>
+      <![CDATA[sucessfuly navigated to user Agreement]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[language changed ]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[language changed ]]>
+    </line>
+    <line>
+      <![CDATA[user entred phone number]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[language changed ]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[bus ticket page navigated]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully clicked on Colombia]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully navigated to colombia]]>
+    </line>
+    <line>
+      <![CDATA[relavent information ]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[user generated otp]]>
+    </line>
+    <line>
+      <![CDATA[bus ticket page navigated]]>
+    </line>
+    <line>
+      <![CDATA[User Sucessfully login]]>
+    </line>
+    <line>
+      <![CDATA[bus ticket page navigated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully got revalent information ]]>
+    </line>
+    <line>
+      <![CDATA[bus ticket page navigated]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[bus ticket page navigated]]>
+    </line>
+    <line>
+      <![CDATA[information displayed in english]]>
+    </line>
+    <line>
+      <![CDATA[relavent information is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[relavent information is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[Sucessfully clicked on booking]]>
+    </line>
+    <line>
+      <![CDATA[navigated to the redbus]]>
+    </line>
+    <line>
+      <![CDATA[user navigate to offer]]>
+    </line>
+    <line>
+      <![CDATA[user navigates to bus offer]]>
+    </line>
+    <line>
+      <![CDATA[user navigates to bus offer]]>
+    </line>
+    <line>
+      <![CDATA[user sucessfully came back to offers page]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-13T18:20:48 IST" name="Default suite" finished-at="2024-11-13T18:22:45 IST" duration-ms="117055">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-13T18:20:48 IST" name="Default test" finished-at="2024-11-13T18:22:45 IST" duration-ms="117055">
+      <class name="com.runner.ParallerRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:20:48 IST" name="setUpClass" finished-at="2024-11-13T18:20:49 IST" duration-ms="817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e1f8469]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:20:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:22:07 IST" duration-ms="78191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["busTicket"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on account ]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on login ]]>
+            </line>
+            <line>
+              <![CDATA[user entred phone number]]>
+            </line>
+            <line>
+              <![CDATA[user generated otp]]>
+            </line>
+            <line>
+              <![CDATA[User Sucessfully login]]>
+            </line>
+            <line>
+              <![CDATA[bus ticket page navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:20:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:21:06 IST" duration-ms="16912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to see the customer review and comments"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["governmentBuses"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[sucessfully clicked on viewAll]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully navigated to the all the RTC Operator directories page]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully clicked on PEPSU link ]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully navigated to PEPSU Page]]>
+            </line>
+            <line>
+              <![CDATA[sucessfully clicked ]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:21:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:21:16 IST" duration-ms="10054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user is able to know about Refund related Cancellation related ticket related"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["information"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[sucessfuly clicked on frequent asked questions]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully navigated to the page]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully clicked on ticket related link]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully clicked on Refund Relatedlink]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully clicked on Cancellation Related link]]>
+            </line>
+            <line>
+              <![CDATA[sucessfuly clicked on terms and conditions]]>
+            </line>
+            <line>
+              <![CDATA[sucessfuly navigated to terms and policy page]]>
+            </line>
+            <line>
+              <![CDATA[sucessfuly clicked on user agreement page]]>
+            </line>
+            <line>
+              <![CDATA[sucessfuly navigated to user Agreement]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:21:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:21:22 IST" duration-ms="6144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate user should able to get data in relavent language"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["language"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[language changed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:21:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:21:29 IST" duration-ms="6347" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate user should able to get data in relavent language"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["language"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.stepDefinition.Language.user_should_able_to_see_the_information_in_relavent_language(Language.java:54)
+at ✽.user should able to see the information in relavent language(file:///C:/Users/saira/eclipse-workspace/Testing_redbus/./src/test/resources/redbusfeature/language.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[language changed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:21:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:21:35 IST" duration-ms="6294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validate user should able to get data in relavent language"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["language"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[language changed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:21:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:21:56 IST" duration-ms="21384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is  able to see main bus route in colombia"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["presenciaGlobal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[bus ticket page navigated]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully clicked on Colombia]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully navigated to colombia]]>
+            </line>
+            <line>
+              <![CDATA[relavent information ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:21:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:22:17 IST" duration-ms="20309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to get the answer for the FAQs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["presenciaGlobal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[bus ticket page navigated]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully got revalent information ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:22:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:22:29 IST" duration-ms="21153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to get the top bus operators"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["presenciaGlobal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[bus ticket page navigated]]>
+            </line>
+            <line>
+              <![CDATA[information displayed in english]]>
+            </line>
+            <line>
+              <![CDATA[relavent information is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:22:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:22:32 IST" duration-ms="15180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to know how  much is a bus ride in Singapore and knowing about Booking"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["presenciaGlobal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[bus ticket page navigated]]>
+            </line>
+            <line>
+              <![CDATA[relavent information is dispalyed]]>
+            </line>
+            <line>
+              <![CDATA[Sucessfully clicked on booking]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:22:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-13T18:22:45 IST" duration-ms="16289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate user able to see the relavent bus offers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["trendingOffers"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[navigated to the redbus]]>
+            </line>
+            <line>
+              <![CDATA[user navigate to offer]]>
+            </line>
+            <line>
+              <![CDATA[user navigates to bus offer]]>
+            </line>
+            <line>
+              <![CDATA[user navigates to bus offer]]>
+            </line>
+            <line>
+              <![CDATA[user sucessfully came back to offers page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.runner.ParallerRunner@3cce5371]" started-at="2024-11-13T18:22:45 IST" name="tearDownClass" finished-at="2024-11-13T18:22:45 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.ParallerRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

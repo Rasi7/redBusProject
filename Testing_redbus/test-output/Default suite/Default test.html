@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 13 18:20:48 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>117 seconds (117055 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate user should able to get data in relavent language", "language"<br/>
+<a href="#Output-2044506967" onClick='toggleBox("Output-2044506967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2044506967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2044506967">
+navigated to the redbus<br/>
+language changed <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepDefinition.Language.user_should_able_to_see_the_information_in_relavent_language(Language.java:54)
+	at ✽.user should able to see the information in relavent language(file:///C:/Users/saira/eclipse-workspace/Testing_redbus/./src/test/resources/redbusfeature/language.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2044506967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2044506967'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepDefinition.Language.user_should_able_to_see_the_information_in_relavent_language(Language.java:54)
+	at ✽.user should able to see the information in relavent language(file:///C:/Users/saira/eclipse-workspace/Testing_redbus/./src/test/resources/redbusfeature/language.feature:5)
+</pre></div></td>
+<td>6</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate user should able to get data in relavent language", "language"<br/>
+<a href="#Output-1166153042" onClick='toggleBox("Output-1166153042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1166153042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1166153042">
+navigated to the redbus<br/>
+language changed <br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is able to know how  much is a bus ride in Singapore and knowing about Booking", "presenciaGlobal"<br/>
+<a href="#Output-222996939" onClick='toggleBox("Output-222996939", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-222996939" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-222996939">
+navigated to the redbus<br/>
+bus ticket page navigated<br/>
+relavent information is dispalyed<br/>
+Sucessfully clicked on booking<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to login", "busTicket"<br/>
+<a href="#Output-230179582" onClick='toggleBox("Output-230179582", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-230179582" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-230179582">
+navigated to the redbus<br/>
+user clicked on account <br/>
+user clicked on login <br/>
+user entred phone number<br/>
+user generated otp<br/>
+User Sucessfully login<br/>
+bus ticket page navigated<br/>
+</div>
+</td>
+<td></td>
+<td>78</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is able to see the customer review and comments", "governmentBuses"<br/>
+<a href="#Output-1062521795" onClick='toggleBox("Output-1062521795", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1062521795" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1062521795">
+navigated to the redbus<br/>
+sucessfully clicked on viewAll<br/>
+Sucessfully navigated to the all the RTC Operator directories page<br/>
+Sucessfully clicked on PEPSU link <br/>
+Sucessfully navigated to PEPSU Page<br/>
+sucessfully clicked <br/>
+Sucessfully navigated<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is able to get the answer for the FAQs", "presenciaGlobal"<br/>
+<a href="#Output-428622996" onClick='toggleBox("Output-428622996", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-428622996" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-428622996">
+navigated to the redbus<br/>
+bus ticket page navigated<br/>
+Sucessfully got revalent information <br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user is able to know about Refund related Cancellation related ticket related", "information"<br/>
+<a href="#Output-234809381" onClick='toggleBox("Output-234809381", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-234809381" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-234809381">
+navigated to the redbus<br/>
+sucessfuly clicked on frequent asked questions<br/>
+Sucessfully navigated to the page<br/>
+Sucessfully clicked on ticket related link<br/>
+Sucessfully clicked on Refund Relatedlink<br/>
+Sucessfully clicked on Cancellation Related link<br/>
+sucessfuly clicked on terms and conditions<br/>
+sucessfuly navigated to terms and policy page<br/>
+sucessfuly clicked on user agreement page<br/>
+sucessfuly navigated to user Agreement<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate user able to see the relavent bus offers", "trendingOffers"<br/>
+<a href="#Output-565145395" onClick='toggleBox("Output-565145395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-565145395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-565145395">
+navigated to the redbus<br/>
+user navigate to offer<br/>
+user navigates to bus offer<br/>
+user navigates to bus offer<br/>
+user sucessfully came back to offers page<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validate user should able to get data in relavent language", "language"<br/>
+<a href="#Output-31637311" onClick='toggleBox("Output-31637311", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-31637311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-31637311">
+navigated to the redbus<br/>
+language changed <br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is  able to see main bus route in colombia", "presenciaGlobal"<br/>
+<a href="#Output-2123000756" onClick='toggleBox("Output-2123000756", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2123000756" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2123000756">
+navigated to the redbus<br/>
+bus ticket page navigated<br/>
+Sucessfully clicked on Colombia<br/>
+Sucessfully navigated to colombia<br/>
+relavent information <br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+<tr>
+<td title='com.runner.ParallerRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.ParallerRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user is able to get the top bus operators", "presenciaGlobal"<br/>
+<a href="#Output-1654857117" onClick='toggleBox("Output-1654857117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1654857117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1654857117">
+navigated to the redbus<br/>
+bus ticket page navigated<br/>
+information displayed in english<br/>
+relavent information is dispalyed<br/>
+</div>
+</td>
+<td></td>
+<td>21</td>
+<td>com.runner.ParallerRunner@3cce5371</td></tr>
+</table><p>
+</body>
+</html>

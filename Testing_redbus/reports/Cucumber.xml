@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="115.751" tests="11" skipped="0" failures="1" errors="0">
+<testcase classname="busTicket" name="Validate user is able to login" time="78.029">
+<system-out><![CDATA[
+Given Browser will be lunched and url should be navigated...................passed
+When user click on Account..................................................passed
+And user click on login/signup..............................................passed
+And user enter phone number.................................................passed
+When click on generate otp..................................................passed
+And click on verify otp.....................................................passed
+Then user is able to click on bus ticket....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="governmentBuses" name="Validate that the user is able to see the customer review and comments" time="16.748">
+<system-out><![CDATA[
+Given Browser should be lunched and url should be navigated.................passed
+When user  click on government buses viewAll................................passed
+And user should navigate to the find all the RTC Operator directories page..passed
+And user  able to click on north zone PEPSU bus link........................passed
+Then user should able to navigate to that paticular page....................passed
+And user click on head office of punjab.....................................passed
+And user should navigate....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="information" name="Validate user is able to know about Refund related Cancellation related ticket related" time="10.039">
+<system-out><![CDATA[
+When Broswer should be launched and url navigated...........................passed
+When user  click on FAQ.....................................................passed
+And user should navigate to the frequent asked Questions....................passed
+And user click on ticket related............................................passed
+And user click on  refund related...........................................passed
+And user click on cancellation related......................................passed
+Then user click on terms and conditions.....................................passed
+And user should navigate to the page........................................passed
+Then user click on userAgrement.............................................passed
+And user should navigate to the relavent page...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="language" name="validate user should able to get data in relavent language - Example #1.1" time="6.127">
+<system-out><![CDATA[
+Given Brower should be lunched and url be navigated.........................passed
+When user is able to click on  1 in the language dropdown...................passed
+Then user should able to see the information in relavent language...........passed
+]]></system-out>
+</testcase>
+<testcase classname="language" name="validate user should able to get data in relavent language - Example #1.2" time="6.339">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.stepDefinition.Language.user_should_able_to_see_the_information_in_relavent_language(Language.java:54)
+	at ✽.user should able to see the information in relavent language(file:///C:/Users/saira/eclipse-workspace/Testing_redbus/./src/test/resources/redbusfeature/language.feature:5)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Brower should be lunched and url be navigated.........................passed
+When user is able to click on  2 in the language dropdown...................passed
+Then user should able to see the information in relavent language...........failed
+]]></system-out>
+</testcase>
+<testcase classname="language" name="validate user should able to get data in relavent language - Example #1.3" time="6.287">
+<system-out><![CDATA[
+Given Brower should be lunched and url be navigated.........................passed
+When user is able to click on  3 in the language dropdown...................passed
+Then user should able to see the information in relavent language...........passed
+]]></system-out>
+</testcase>
+<testcase classname="presenciaGlobal" name="Validate that the user is  able to see main bus route in colombia" time="21.378">
+<system-out><![CDATA[
+Given Browser should be launched and url will be navigated..................passed
+And user click on bus ticket button.........................................passed
+And user click on Hindi language............................................passed
+When user click on Colombia.................................................passed
+And colombia page should be displayed.......................................passed
+Then user click on main bus route in colombia...............................passed
+And user should get the relavent information................................passed
+]]></system-out>
+</testcase>
+<testcase classname="presenciaGlobal" name="Validate that the user is able to get the answer for the FAQs" time="20.298">
+<system-out><![CDATA[
+Given Browser should be launched and url will be navigated..................passed
+And user click on bus ticket button.........................................passed
+And user click on Hindi language............................................passed
+When user click on Indonesia................................................passed
+Then user click on FAQs.....................................................passed
+And user should get relavent answer for that question.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="presenciaGlobal" name="Validate that the user is able to get the top bus operators" time="21.147">
+<system-out><![CDATA[
+Given Browser should be launched and url will be navigated..................passed
+And user click on bus ticket button.........................................passed
+And user click on Hindi language............................................passed
+When user click on Malaysia.................................................passed
+And user  click english language............................................passed
+Then user click on top operators............................................passed
+And user should get relavent information....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="presenciaGlobal" name="Validate that the user is able to know how  much is a bus ride in Singapore and knowing about Booking" time="15.174">
+<system-out><![CDATA[
+Given Browser should be launched and url will be navigated..................passed
+And user click on bus ticket button.........................................passed
+And user click on Hindi language............................................passed
+When user click on Singapore................................................passed
+And user click on bus ride..................................................passed
+Then user should see the relavent data......................................passed
+And user click on Booking...................................................passed
+Then user click on the process of booking...................................passed
+And user should get relavent information about booking......................passed
+]]></system-out>
+</testcase>
+<testcase classname="trendingOffers" name="Validate user able to see the relavent bus offers" time="16.282">
+<system-out><![CDATA[
+Given Browser should be launch and navigate to url..........................passed
+When user should click on Bus Ticket........................................passed
+And user should  click on ViewAll link......................................passed
+And user should navigate to Offer page......................................passed
+Then user should get bus Offers.............................................passed
+And user should come back from bus offers...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
